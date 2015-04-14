@@ -1,0 +1,273 @@
+body{
+  margin:0;
+  background-color:rgba(12, 57, 116, 0.85) !important;
+  font-family:times-new-roman ! important;
+  padding:1em;
+  width:100%;
+  height:100%;
+}
+#up{
+  width:100%;
+  overflow:hidden;
+  background-color:black;
+}
+#uplinks{
+  float:right;
+  width:25%;
+}
+#uplinks img{
+  width:60%;
+  //min-height:10px;
+  min-width:20px;
+}
+#uplinks ul{
+  list-style-type:none;
+}
+#uplinks ul li{
+  display:inline-block;
+}
+#header{                           /* header is containing heading and logo*/
+  overflow:hidden;
+  width:100%;
+  //max-height:100px;
+}
+#logo{
+  width:40%;
+  float:left;
+  overflow:hidden;
+}
+#logo img{
+  width:25%;
+  min-width:60px;
+}
+#heading{
+  float:left;
+  width:40%;
+  color:white;
+  text-shadow:.25em .25em .25em black;
+}
+#heading h1{
+  font-size:3em;
+}
+#sticker{
+  float:right;
+  width:14%;
+  background-color:black;
+  margin-top:2em;
+}
+#sticker h3{
+  font-size:1.5em;
+}
+.sticker1{
+  //background-color:black;
+  border-style:solid;
+  border-color:white;
+}
+#container{                /*container is containing only navigation*/
+  //overflow:hidden;
+  width:86%;
+}
+#navigation{
+  //font-family:times new roman;
+  font-size:1.4em;
+  //overflow:hidden;
+  //padding:0.5em;
+  //margin:0.5em;
+  float:left;
+  width:100%;
+  //z-index:3;
+}
+#navigation ul{
+  list-style-type:none;
+  padding:0.1em;
+  margin:0.1em;
+  //margin-top:1em;
+  position:relative;
+}
+#navigation ul li{
+  display:inline-block;
+  background-color:white;
+  padding:0.1em;
+  margin-right:1em;
+  border-radius:0.2em;
+  margin:.2em;
+}
+#navigation a{
+  color:purple;
+}
+#navigation ul li:hover {
+  background-color:black;
+  color:darkgreen;
+}
+#navigation ul li a:hover{
+  color:darkgreen;
+}
+#navigation ul ul{
+  display:none;
+  position:absolute;
+  z-index:2;
+}
+#navigation ul li:hover ul {
+  display:block;
+}
+#navigation ul ul li{
+  display:block;  
+}
+#gallery{
+  margin-left:10%;
+  //margin:right:10%;
+  width:80%;
+  overflow:hidden;
+}
+#gallery img{
+  width:100%;
+}
+#notification{
+  overflow:hidden;
+  width:100%; 
+  background-color:white; 
+  font-size:1.2em; 
+}
+#notification h3{
+  font-size:1.8em;
+}
+#welcome{
+  width:60%;
+  overflow:hidden;
+  float:left;
+  background-color:white;
+  padding:1em;
+}
+#latest-news{
+  width:40%;
+  float:left;
+  background-color:coral;
+  overflow:hidden;
+  padding:1em;
+}
+#footer{
+  overflow:hidden;
+  background-color:black;
+  width:100%;
+  font-size:1.2em;
+}
+#footer ul{
+  list-style-type:none;
+}
+#footer ul li{
+  display:inline;
+  margin:.3em;
+}
+@media only screen and (max-width:1000px){
+  #heading{
+    font-size:0.88em;
+  }
+  #container{
+    font-size:0.9em;
+  }
+  #sticker{
+    font-size:0.9em;
+  }
+} 
+@media only screen and (max-width:875px){
+  #heading{
+    font-size:0.85em;
+  }
+  #container{
+    font-size:0.85em;
+  }
+  #sticker{
+    font-size:0.8em;
+  }
+} 
+@media only screen and (max-width:775px){
+  body{
+    overflow-x:scroll;
+  }
+  #heading{
+    font-size:0.75em;
+  }
+  #sticker{
+    font-size:0.71em;
+  }
+  #container{
+    font-size:0.8em;
+  }
+  #notification{
+    font-size:.95em;
+  }
+  #footer{
+    font-size:1em;
+  }
+} 
+@media only screen and (max-width:675px){
+  #heading{
+    font-size:0.65em;
+  }
+  #sticker{
+    font-size:0.62em;
+  }
+  #container{
+    font-size:0.75em;
+  }
+  #notification{
+    font-size:.95em;
+  }
+  #footer{
+    font-size:1em;
+  }
+} 
+
+@media only screen and (max-width:575px){
+  #heading{
+    font-size:0.55em;
+  }
+  #sticker{
+    font-size:0.5em;
+  }
+  #container{
+    font-size:0.75em;
+  }
+  #notification{
+    font-size:.85em;
+  }
+  #footer{
+    font-size:1em;
+  }
+}  
+@media only screen and (max-width:475px){
+  #heading{
+    font-size:0.45em;
+  }
+  #sticker{
+    font-size:0.43em;
+  }
+  #container{
+    font-size:0.65em;
+  }
+  #notification{
+    font-size:.75em;
+  }
+  #footer{
+    font-size:.9em;
+  }
+} 
+@media only screen and (max-width:375px){
+  body{
+    overflow-x:scroll;
+  }
+  #heading{
+    font-size:0.35em;
+  }
+  #container{
+    font-size:0.55em;
+  }
+  #notification{
+    font-size:.7em;
+  }
+  #footer{
+    font-size:.9em;
+  }
+} 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/

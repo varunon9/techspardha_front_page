@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Techspardha 15</title>
+</head>
+<body>
+    
+    <h2>This is only a sample page.</h2>
+	<h3>Go back or click on butterfly to visit home page.</h3>
+	
+	<div>
+		      <a href="index.html"  onmouseover="On('button');" onmouseout="Off('button');"><img src="images/buttonoff.gif" alt="roll over button" name="button"/></a>
+			  <script type="text/javascript">
+<!--
+if(document.images)
+{
+buttonoff=new Image();
+buttonoff.src="images/buttonoff.gif";
+buttonon=new Image();
+buttonon.src="images/buttonon.gif";
+}
+function On(imageName)
+{
+ if(document.images)
+ { 
+  document[imageName].src=eval(imageName+"on.src");
+ }
+}
+function Off(imageName)
+{
+ if(document.images)
+ { 
+  document[imageName].src=eval(imageName+"off.src");
+ }
+}
+//-->
+</script>
+		 </div>
+</body>
+</html>
